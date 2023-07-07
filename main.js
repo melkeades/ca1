@@ -1,3 +1,3 @@
 import './style.styl'
 
-console.log('xx')
+console.log('xxc')
