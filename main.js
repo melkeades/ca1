@@ -15,6 +15,6 @@ const approachImg = document.querySelector('.approach-sec__img-wrap')
 const approachTitle = document.querySelector('.approach-sec__title-fg')
 // approachTitle.style.opacity = '0.5'
 let approachTitleMask = approachImg.getBoundingClientRect().left - approachTitle.getBoundingClientRect().left
-approachTitle.style.clipPath = 'inset(0 0 -50px ' + approachTitleMask + 'px )'
 // console.log(approachTitle.getBoundingClientRect().left)
 // console.log(approachImg.offsetLeft, approachImg.getBoundingClientRect().left)
+approachTitle.style.clipPath = 'inset(0 0 -50px ' + approachTitleMask + 'px )'
